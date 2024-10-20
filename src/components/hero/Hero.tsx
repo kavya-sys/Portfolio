@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from "react";
-import DisplayLottie from "../DisplayLottie/DisplayLottie";
-import hero from '../../assets/lottie/hero.json'
+import React from "react";
 import "./Hero.css";
 import SocialMediaIcons from "../Fontawsome/Fontawsome";
-import gsap from "gsap";
 
 const Hero2:React.FC=()=>{
     // const [pointer,setpointer] = useState('');

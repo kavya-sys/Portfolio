@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import './Hero3.css';
-import Lenis from "lenis";
 import SplitType from "split-type";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger"
-import { link } from "fs";
 
 const Hero3: React.FC = () => {
     gsap.registerPlugin(ScrollTrigger)
 
-    const [splitTypesText, setSplitTypes]= useState('CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK⚡ Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards.⚡ ');
+    const [splitTypesText]= useState('CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK⚡ Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards.⚡ ');
     // const st=document.querySelector('.reaveal-type')
 
     // splitTypesText.map((char,i)
@@ -62,7 +60,7 @@ const Hero3: React.FC = () => {
         <div className="Hero3_btn">
            <div className="hero_btn">
          <button><a className="btn btn-primary" href="https://www.linkedin.com/in/kartika-bhatnagar/">Contact Me</a></button>
-            <button><a className="btn btn-primary"  href="">Download My Resume</a></button>
+            <button><a className="btn btn-primary"  href=" ">Download My Resume</a></button>
         </div>        
         </div>
         </div>
