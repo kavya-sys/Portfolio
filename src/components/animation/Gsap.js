@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 var main = document.querySelector('body');
-var cursor = document.querySelector('.outercursor');
+// var cursor = document.querySelector('.outercursor');
 
 main.addEventListener('mousemove',function(dets){
     if(dets.target.tagName.toLowerCase() === 'a' || dets.target.tagName.toLowerCase() === 'button'){

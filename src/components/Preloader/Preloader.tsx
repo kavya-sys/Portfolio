@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Preloader.css'
 import gsap from 'gsap';
 // import {preLoaderAnim} from '../animation/PreLoader'

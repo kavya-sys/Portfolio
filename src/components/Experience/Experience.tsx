@@ -1,6 +1,5 @@
 import React from "react";
 import './Experience.css'
-import Switch from "../Switch/Switch";
 const Exprerience: React.FC = () => {
     
     return (
