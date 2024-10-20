@@ -1,0 +1,53 @@
+.Experience{
+    text-align: center;
+    animation: a2 1s ease-in;
+}
+.Experience_heading{
+    padding: 1rem;
+}
+.Experience_heading h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.card{
+    width: 22rem;
+    margin: 1rem;
+    box-shadow: 8px 7px 12px 3px #504f4f3e;
+    border-radius: 12px;
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 7rem 1rem 2rem 1rem !important;
+}
+.card-body p{
+    color: black;
+}
+.card img {
+    width: 10rem;
+    /* margin: 1rem; */
+    position: absolute;
+    /* height: 40rem; */
+    border-radius: 12px;
+    box-shadow: 8px 7px 12px 3px #0000003d;
+    background: white;
+    border-radius: 50%;
+    top: 5.5rem;
+    left: 5.5rem;
+}
+@keyframes a2 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.card_txt{
+    padding: 2rem 0 5rem 0;
+    background: #1f0f4c;
+    color: white;
+    /* border-top-radius: 12px; */
+    /* margin: 2rem 0; */
+    border-radius: 12px 12px 0 0;
+}

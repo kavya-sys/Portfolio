@@ -1,0 +1,46 @@
+.edu_main{
+    padding: 3rem 8rem;
+}
+.edu_main h1{
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 3.4rem;
+}
+.edu_card{
+    display: flex;
+    flex-direction: column;
+}
+.edu_main h1{
+    font-size: 3.4rem;
+}
+.edu{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    padding: 1rem 1rem;
+    line-height: 0px;
+}
+.edu img{
+    width: 8rem;
+    height: 8rem;
+    border: 1px black solid;
+    border-radius: 50%;
+}
+.edu_main span{
+    width: auto;
+    display: block;
+    border:1px solid rgba(0, 0, 0, 0.201);
+    margin: 1rem;
+}
+
+.edu_txt h3{
+    font-size: 2.2rem;
+}
+.edu_txt h5{
+    font-size: 1.5rem;
+    opacity: 80%;
+}
+.edu_txt p{
+    font-size: 1rem;
+    opacity: 70%;
+}

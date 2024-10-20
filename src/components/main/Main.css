@@ -1,0 +1,60 @@
+.Main_Content{
+    display: flex;
+}
+.Main_Lottie{
+    flex: 1 1;
+}
+.Main_txt_icon1 a:hover{
+    /* background-color: red; */
+    transform: scale(120%);
+    transition: ease-in-out 0.5s;
+    animation-delay: 0.1s;
+}
+@keyframes aaa {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.Main{
+    justify-content: center;
+    padding: 2rem 10rem;
+    display: flex;
+    /* background: #ceced0; */
+    animation: aaa 1s ease-in;
+}
+.Main_txt h1{
+    font-size: 3rem;
+}
+.Main_txt_icon1 {
+    width: 25rem;
+    padding: 0rem 0 0 0.5rem;
+    display: flex;
+}
+.Main_txt_icon2 {
+    width: 25rem;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+}
+.Main_txt_icon1 a{
+    padding: 0rem 2rem 0 0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.Main_txt_icon1 a svg{
+    margin: 0.5rem 0;
+}
+.Main_txt_icon1 p{
+    font-size: 12px;
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.Main_txt {
+    padding-top: 5rem;
+}

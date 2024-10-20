@@ -1,0 +1,132 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 8rem;
+  opacity: 1;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.navItems ul {
+  gap: 1rem;
+  display: flex;
+  list-style: none;
+}
+.navItems ul li {
+  z-index: 50;
+}
+.navItems ul a {
+  text-decoration: none;
+  color: white;
+}
+.navItems ul li {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.navSpan {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #aa8889;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    padding: 1.3rem;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero_img img {
+    width: 100%;
+  }
+  .hero_img {
+    padding: 5px;
+  }
+  .hero_right h1 {
+    text-align: center;
+  }
+  .Hero3 {
+    /* margin-top: 5rem !important; */
+    padding: 1rem 2rem !important;
+    flex-direction: column;
+  }
+  .Hero3 section p {
+    font-size: clamp(1.41rem, 0.61vi + 1.26rem, 2rem);
+  }
+  .Hero3_btn {
+    /* margin-top: 8rem; */
+    padding: 0 !important;
+  }
+  .Main_Content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Main_Lottie div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .Main_txt {
+    padding-top: 0rem !important;
+  }
+  .Main_txt_icon1 {
+    width: 25rem;
+    padding: 0rem 0 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .card {
+    width: auto !important;
+    justify-content: center;
+    display: flex;
+    margin: 1rem 3rem !important;
+  }
+  .Experience_Content {
+    flex-direction: column;
+  }
+  .project_cards {
+    flex-direction: column;
+  }
+  .card_project {
+    width: auto !important;
+  }
+  .Main_txt_icon1 a {
+    padding: 0rem 1rem 0 0 !important;
+    text-decoration: none;
+    font-size: 0.6rem !important;
+    text-align: center;
+  }
+  .SocialMediaIcon a svg {
+    padding: 0.4rem !important;
+    height: 2rem !important;
+  }
+  .SocialMediaIcon a {
+    padding: 0.5rem 0.4rem !important;
+  }
+
+  .Main_txt_icon1 p {
+    font-size: 10px;
+  }
+  .about {
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+
+  .hero_btn button a {
+    padding: 0.25rem 0.8rem !important;
+    margin: 0 0.5rem !important;
+    font-size: 1rem !important;
+  }
+  .Experience_heading h1{
+    font-size: 3rem !important;
+  }
+}
