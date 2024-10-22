@@ -45,6 +45,9 @@ nav {
   .hero {
     flex-direction: column;
   }
+  .logo{
+    font-size: 1.2rem;
+  }
   .hero_img img {
     width: 100%;
   }
@@ -117,7 +120,7 @@ nav {
     font-size: 10px;
   }
   .about {
-    padding: 2rem;
+    padding: 2rem 3rem;
     flex-direction: column-reverse;
   }
 
@@ -128,5 +131,49 @@ nav {
   }
   .Experience_heading h1{
     font-size: 3rem !important;
+  }
+  .card img{
+    top: 38% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+  .hero_txt h1 {
+    font-size: 4rem !important;
+    text-align: center !important;
+  }
+  .hero_txt p{
+    text-align: center !important;
+  }
+  .available{
+    justify-content: center !important;
+  }
+  .Main_Content{
+    width: 85%;
+  }
+  .Main_txt_icon1 {
+    width: auto !important;
+  }
+  .Main{
+    padding: 2rem 0 !important;
+  }
+  .preloader .texts-container {
+    justify-content: center !important;
+    text-align: center !important;
+    left: -10% !important;
+    position: absolute;
+  }
+  .preloader{
+    width:100% !important;
+  }
+  
+  .texts-container {
+    width: 100% !important;
+    
+  }
+  .outercursor{
+    display: none;
+  }
+  .innercursor{
+    display: none;
   }
 }
