@@ -7,7 +7,7 @@ import {ScrollTrigger} from "gsap/ScrollTrigger"
 const Hero3: React.FC = () => {
     gsap.registerPlugin(ScrollTrigger)
 
-    const [splitTypesText]= useState('CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK⚡ Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards.⚡ ');
+    const [splitTypesText]= useState('Crazy full stack developer who wants to explore every tech stack⚡Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards. ');
     // const st=document.querySelector('.reaveal-type')
 
     // splitTypesText.map((char,i)
@@ -19,11 +19,11 @@ const Hero3: React.FC = () => {
             scrollTrigger:{
                 trigger:'.reveal-type',
                 start:'top 80%',
-                end:'top 35%',
+                end:'top 20%',
                 scrub:true,
                 markers:false,  
               },
-            opacity:0.2,
+            opacity:0.1,
             stagger:0.8,ease: "steps(40)",
         })
     },[splitTypesText]);
