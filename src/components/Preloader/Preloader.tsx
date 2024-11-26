@@ -23,7 +23,7 @@ const Preloader:React.FC=()=> {
       duration: 0.5,
       delay: 0.2,
       y: 70,
-      skewY: 10,
+      // skewY: 10,
       stagger: 0.4,
       ease: "Power3.easeOut",
     })
@@ -42,8 +42,6 @@ const Preloader:React.FC=()=> {
     .to(".preloader",{
         duration: 0.7,
         height: "0vh",
-        borderBottomRightRadius:'100%',
-        borderBottomLeftRadius:'100%',
         ease:"power4.in",
       })
     

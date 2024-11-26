@@ -30,12 +30,12 @@
     font-size: 3rem;
 }
 .Main_txt_icon1 {
-    width: 25rem;
+    /* width: 25rem; */
     padding: 0rem 0 0 0.5rem;
     display: flex;
 }
 .Main_txt_icon2 {
-    width: 25rem;
+    /* width: 25rem; */
     padding: 0.5rem 0.5rem;
     display: flex;
 }

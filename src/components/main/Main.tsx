@@ -35,7 +35,6 @@ const Main: React.FC = () => {
   //     })
   // })
 
-
   return (
     <div className="Main">
       <div className="Main_Content">
