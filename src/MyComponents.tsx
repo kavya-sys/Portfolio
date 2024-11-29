@@ -10,20 +10,24 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Preloader from './components/Preloader/Preloader';
 import Gsap from './components/gsap/Gsap';
-import Hero3 from './components/Hero3/Hero3';
+import Hero3 from './components/Hero3/Hero3';;
+
 
 const Mainn: React.FC = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
   const workRef = useRef<HTMLDivElement>(null);
   return (
     <div>
+    
       <div>
-        <Gsap />
+
+        <Gsap/>
         <Nav2 aboutRef={aboutRef} workRef={workRef}/>
-        <Preloader />
+        <Preloader/>
         <Hero2 />
         <Hero3 />
         <Main />
+        {/* <ScrollBar/> */}
         <div ref={workRef}>
         <Projects  />
         </div>

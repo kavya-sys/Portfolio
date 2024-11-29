@@ -29,9 +29,11 @@ const Nav2: React.FC<Nav2Props> = ({aboutRef,workRef})=>{
         </div>
         <div className="navItems">
           <ul>
-            <li><a href=" ">Home</a> <span className="navSpan active"></span></li>
-            <li><a href=" " onClick={handleScrollToWork}>Work</a> <span className="navSpan"></span> </li>
-            <li><a href=" " onClick={handleScrollToAbout}>About</a> <span className="navSpan"></span> </li>
+            <li><a href=" ">Home </a><span></span> 
+            {/* <span className="navSpan active"></span> */}
+            </li>
+            <li><a href=" " onClick={handleScrollToWork}>Work</a> <span></span> </li>
+            <li><a href=" " onClick={handleScrollToAbout}>About</a> <span></span> </li>
           </ul>
         </div>
       </nav>
