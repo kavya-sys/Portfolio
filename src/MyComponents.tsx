@@ -10,7 +10,7 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Preloader from './components/Preloader/Preloader';
 import Gsap from './components/gsap/Gsap';
-import Hero3 from './components/Hero3/Hero3';;
+import ScrollText from './components/ScrollText/ScrollText';;
 
 
 const Mainn: React.FC = () => {
@@ -25,7 +25,7 @@ const Mainn: React.FC = () => {
         <Nav2 aboutRef={aboutRef} workRef={workRef}/>
         <Preloader/>
         <Hero2 />
-        <Hero3 />
+        <ScrollText />
         <Main />
         {/* <ScrollBar/> */}
         <div ref={workRef}>

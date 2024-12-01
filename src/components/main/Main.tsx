@@ -43,11 +43,11 @@ const Main: React.FC = () => {
         </div>
         <div className="Main_txt">
           <h1>What I do</h1>
-          <p className="mb-0 text-">Transforming Ideas into Functional Web Applications</p>
+          <p className="mb-0 opacity-50 textCenter">Transforming Ideas into Functional Web Applications</p>
           <br />
-          <p className="mb-2">⚡ Creating responsive, engaging interfaces with React, Gsap, and TailWindcss</p>
-             <p className="mb-2">⚡ Building secure, scalable server-side solutions using Node.js</p>
-            <p className="mb-4">⚡ Delivering seamless full-stack applications for optimized user experiences.</p>
+          <p className="mb-2 opacity-50">⚡ Creating responsive, engaging interfaces with React, Gsap, and TailWindcss</p>
+             <p className="mb-2 opacity-50">⚡ Building secure, scalable server-side solutions using Node.js</p>
+            <p className="mb-4 opacity-50">⚡ Delivering seamless full-stack applications for optimized user experiences.</p>
 
             <div className="Main_txt_icon1">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -82,8 +82,8 @@ const Main: React.FC = () => {
           <FontAwesomeIcon icon={faAws} size="3x" style={{color:'black', opacity:'50%'}}/>
           <p>Aws</p>
         </a>
-       </div>
-       <div className="Main_txt_icon1">
+       {/* </div>
+       <div className="Main_txt_icon1"> */}
         
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faPython} size="3x" style={{color:'black', opacity:'50%'}}/>

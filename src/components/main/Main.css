@@ -19,20 +19,22 @@
     }
 }
 
-.Main{
+.Main {
     justify-content: center;
-    padding: 2rem 10rem;
+    padding: 0rem 10rem 2rem 10rem;
     display: flex;
     /* background: #ceced0; */
     animation: aaa 1s ease-in;
 }
 .Main_txt h1{
     font-size: 3rem;
+    text-align: left;
 }
 .Main_txt_icon1 {
     /* width: 25rem; */
     padding: 0rem 0 0 0.5rem;
     display: flex;
+    flex-wrap: wrap;
 }
 .Main_txt_icon2 {
     /* width: 25rem; */
@@ -57,4 +59,7 @@
 
 .Main_txt {
     padding-top: 5rem;
+}
+.textCenter{
+    text-align: left;
 }

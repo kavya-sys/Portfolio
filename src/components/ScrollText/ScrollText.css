@@ -1,7 +1,7 @@
 
-.Hero3{
+.ScrollText{
     justify-content: center;
-    padding: 0rem 12rem;
+    padding: 0rem 15%;
     display: flex;
     background: #111;
     animation: aaa 1s ease-in;
@@ -18,13 +18,13 @@ section {
     display: grid;
     place-content: center;
     p{
-        font-size: clamp(2.2rem, 1.4vi + 1.87rem, 3.1rem);
+        font-size: clamp(2.2rem, 1.4vi + 1.87rem, 2.5rem);
         text-align: left;
         line-height: 1.1;
     }
     
 }
-.Hero3_btn{
+.ScrollText_btn{
     justify-content: center;
     display: flex;
     padding: 1rem;

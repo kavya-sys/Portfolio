@@ -13,7 +13,7 @@ const About:React.FC=()=> {
 {/* <SocialMediaIcons/> */}
 <div>
   <h4>bhatnagarkartik6@gmail.com</h4>
-  <div className="Hero3_btn about_txt_btn">
+  <div className="ScrollText_btn about_txt_btn">
            <div className="hero_btn">
             <button><a className="btn btn-primary" href="https://www.linkedin.com/in/kartika-bhatnagar/">Linkedin</a></button>
             <button><a className="btn btn-primary"  href=" ">Download My Resume</a></button>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import './Hero3.css';
+import './ScrollText.css';
 import SplitType from "split-type";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger"
 
-const Hero3: React.FC = () => {
+const ScrollText: React.FC = () => {
     gsap.registerPlugin(ScrollTrigger)
 
     const [splitTypesText]= useState('Crazy full stack developer who wants to explore every tech stack⚡Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards. ');
@@ -52,12 +52,12 @@ const Hero3: React.FC = () => {
 
 
   return (
-    <div className="Hero3">
+    <div className="ScrollText">
         <section>
 
           <p className="mb-0 reveal-type">{splitTypesText}</p>
         </section>
-        <div className="Hero3_btn">
+        <div className="ScrollText_btn">
            <div className="hero_btn">
          <button><a className="btn btn-primary" href="https://www.linkedin.com/in/kartika-bhatnagar/">Contact Me</a></button>
             <button><a className="btn btn-primary"  href=" ">Download My Resume</a></button>
@@ -68,4 +68,4 @@ const Hero3: React.FC = () => {
   )
 }
 
-export default Hero3;
+export default ScrollText;

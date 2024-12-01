@@ -63,6 +63,8 @@ nav {
   }
   .hero {
     flex-direction: column;
+    gap: 1.5rem !important;
+    padding-top: 1rem !important;
   }
   .logo{
     font-size: 1.2rem;
@@ -76,15 +78,15 @@ nav {
   .hero_right h1 {
     text-align: center;
   }
-  .Hero3 {
+  .ScrollText {
     /* margin-top: 5rem !important; */
-    padding: 1rem 2rem !important;
+    padding: 1rem 10% !important;
     flex-direction: column;
   }
-  .Hero3 section p {
+  .ScrollText section p {
     font-size: clamp(1.41rem, 0.61vi + 1.26rem, 2rem);
   }
-  .Hero3_btn {
+  .ScrollText_btn {
     /* margin-top: 8rem; */
     padding: 0 !important;
   }
@@ -124,9 +126,10 @@ nav {
   .Main_txt_icon1 a {
     padding: 0rem 1rem 0 0 !important;
     text-decoration: none;
-    font-size: 0.6rem !important;
+    font-size: 0.7rem !important;
     text-align: center;
   }
+  
   .SocialMediaIcon a svg {
     padding: 0.4rem !important;
     height: 2rem !important;
@@ -162,18 +165,24 @@ nav {
   }
   .hero_txt p{
     text-align: center !important;
+    font-size: 1rem !important;
   }
   .available{
     justify-content: center !important;
   }
   .Main_Content{
-    width: 85%;
+    width: 100%;
   }
   .Main_txt_icon1 {
     width: auto !important;
   }
   .Main{
-    padding: 2rem 0 !important;
+    padding: 3rem 2.5rem!important;
+  }
+  .Main_txt h1{
+    text-align: center !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem;
   }
   .preloader .texts-container {
     justify-content: center !important;
