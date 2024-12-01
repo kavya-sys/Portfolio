@@ -1,20 +1,22 @@
-body{
-    background-color: #ceced0;
-}
+
 .about{
-    padding-top: 3rem;
+    padding: 6rem 0;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    gap: 3rem;
 }
 .about_txt h1{
-    font-size: 3.4rem;
+    font-size: 3rem;
 }
 .about_txt p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0;
+    opacity: 0.5;
+}
+.about_txt h4{
+    opacity: 0.5;
+    font-size: 1.2rem;
 }
 
 .about_img img{
@@ -27,14 +29,24 @@ body{
 .loc_icon{
     padding: 0.4rem;
 }
-.about_txt_available, .about_txt_btn{
+/* .about_txt_available, .about_txt_btn{
     justify-content: left !important;
-}
+} */
 
 .about_txt_btn{
     padding: 0;
 }
- 
-.about_txt_available div{
-    transform: translateY(.7em);
+.about_txt button:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    white-space: nowrap;
+    cursor: pointer;
+    transform: translateY(1.2);
+    transition: all 0.3s ease;
+    user-select: none;
+    box-shadow: 0 4px 15px rgba(218, 218, 239, 0.464);
 }
+ 
+/* .about_txt_available div{
+    transform: translateY(.7em);
+} */

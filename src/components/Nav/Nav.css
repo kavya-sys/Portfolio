@@ -129,7 +129,7 @@ nav {
     font-size: 0.7rem !important;
     text-align: center;
   }
-  
+
   .SocialMediaIcon a svg {
     padding: 0.4rem !important;
     height: 2rem !important;
@@ -176,8 +176,11 @@ nav {
   .Main_txt_icon1 {
     width: auto !important;
   }
+  .scroller{
+    max-width: 20rem !important;
+  }
   .Main{
-    padding: 3rem 2.5rem!important;
+    padding: 6rem 2.5rem!important;
   }
   .Main_txt h1{
     text-align: center !important;
@@ -197,6 +200,18 @@ nav {
   .texts-container {
     width: 100% !important;
     
+  }
+  .about_txt h4{
+    font-size: 1rem !important;
+    margin-bottom: 1rem;
+  }
+  .about{
+    padding: 6rem 4rem !important;
+    text-align: center !important;
+  }
+  .about_txt p{
+    font-size: 1rem !important;
+    text-align: center !important;
   }
   .outercursor{
     display: none;

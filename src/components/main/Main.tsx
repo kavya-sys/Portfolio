@@ -7,7 +7,10 @@ import {ScrollTrigger} from "gsap/ScrollTrigger"
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faJava, faJs, faReact, faNode, faAws,faPhp, faPython, faDocker, faGithub, faGitlab} from '@fortawesome/free-brands-svg-icons';
+import TextScroller from "../../TextScroller/TextScroller";
+
 library.add(faHtml5, faCss3, faJava, faJs, faReact, faNode, faAws,faPhp, faPython, faDocker, faGithub);
+
 
 const Main: React.FC = () => {
   gsap.registerPlugin(ScrollTrigger)
@@ -38,9 +41,9 @@ const Main: React.FC = () => {
   return (
     <div className="Main">
       <div className="Main_Content">
-        <div className="Main_Lottie">
+        {/* <div className="Main_Lottie">
           <Lottie options={defaultOptions} height={500} width={500} />
-        </div>
+        </div> */}
         <div className="Main_txt">
           <h1>What I do</h1>
           <p className="mb-0 opacity-50 textCenter">Transforming Ideas into Functional Web Applications</p>
@@ -49,7 +52,8 @@ const Main: React.FC = () => {
              <p className="mb-2 opacity-50">⚡ Building secure, scalable server-side solutions using Node.js</p>
             <p className="mb-4 opacity-50">⚡ Delivering seamless full-stack applications for optimized user experiences.</p>
 
-            <div className="Main_txt_icon1">
+<TextScroller/>
+            {/* <div className="Main_txt_icon1">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faHtml5} size="3x" style={{color:'black', opacity:'50%'}}/>
           <p>Html</p>
@@ -82,9 +86,7 @@ const Main: React.FC = () => {
           <FontAwesomeIcon icon={faAws} size="3x" style={{color:'black', opacity:'50%'}}/>
           <p>Aws</p>
         </a>
-       {/* </div>
-       <div className="Main_txt_icon1"> */}
-        
+      
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faPython} size="3x" style={{color:'black', opacity:'50%'}}/>
           <p>Python</p>
@@ -101,7 +103,7 @@ const Main: React.FC = () => {
           <FontAwesomeIcon icon={faGitlab} size="3x" style={{color:'black', opacity:'50%'}}/>
           <p>GitLab</p>
         </a>  
-            </div>
+            </div> */}
         </div>
         
       </div>
