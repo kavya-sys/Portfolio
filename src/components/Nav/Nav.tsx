@@ -25,7 +25,7 @@ const Nav2: React.FC<Nav2Props> = ({aboutRef,workRef})=>{
 
       <nav>
         <div className="logo">
-          Kartik Bhatnagar
+          Vanshika Jain
         </div>
         <div className="navItems">
           <ul>

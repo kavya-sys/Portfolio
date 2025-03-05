@@ -7,7 +7,7 @@ import {ScrollTrigger} from "gsap/ScrollTrigger"
 const ScrollText: React.FC = () => {
     gsap.registerPlugin(ScrollTrigger)
 
-    const [splitTypesText]= useState('Crazy full stack developer who wants to explore every tech stack⚡Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards. ');
+    const [splitTypesText]= useState('Fully Motivated software developer who wants to explore every tech stack⚡Develop highly interactive Front end and Backend for your web applications⚡ From front-end design to back-end development,⚡ I strive to deliver clean, efficient, and scalable solutions that meet modern web standards. ');
     // const st=document.querySelector('.reaveal-type')
 
     // splitTypesText.map((char,i)
@@ -59,7 +59,7 @@ const ScrollText: React.FC = () => {
         </section>
         <div className="ScrollText_btn">
            <div className="hero_btn">
-         <button><a className="btn btn-primary" href="https://www.linkedin.com/in/kartika-bhatnagar/">Contact Me</a></button>
+         <button><a className="btn btn-primary" href="https://www.linkedin.com/in/vanshika-jain-55b273254/">Contact Me</a></button>
             <button><a className="btn btn-primary"  href=" ">Download My Resume</a></button>
         </div>        
         </div>

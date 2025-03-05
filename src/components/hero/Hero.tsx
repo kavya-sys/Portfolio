@@ -17,7 +17,7 @@ const Hero2:React.FC=()=>{
 
     <div className="hero">
         <div className="hero_txt">
-        <h1>I'm <span>Kartik</span> </h1>
+        <h1>I'm <span>Vanshika</span> </h1>
         <p>Crafting Seamless Digital Experiences</p>
         <div className="available">
         <div></div><p>Available for full time position</p>
@@ -32,12 +32,12 @@ const Hero2:React.FC=()=>{
         <div className="hero_lottie">
         {/* <DisplayLottie /> */}
         <div className="hero_img">
-        <img src="./hero_img.png" alt="" />
+        <img src="./profile.png" alt="" />
         </div>
 
         </div>
         <div className="hero_right">
-            <h1>Full Stack <br /> Developer 
+            <h1>Software <br /> Developer 
                 </h1></div>
         </div>
 

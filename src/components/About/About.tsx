@@ -13,7 +13,7 @@ const About:React.FC=()=> {
 {/* <SocialMediaIcons/> */}
 
   <button  className='px-4 py-2 text-white bg-transparent my-4 border border-1 rounded-4'>
-    <a className='text-decoration-none text-white' href="href='https://www.linkedin.com/in/kartika-bhatnagar/'">
+    <a className='text-decoration-none text-white' href="https://www.linkedin.com/in/vanshika-jain-55b273254/">
     Get in touch
     </a>
   </button>

@@ -8,23 +8,23 @@ library.add(faFacebook, faTwitter, faInstagram, faGithub, faEnvelope, faHackerra
 const SocialMediaIcons = () => {
     return (
       <div className='SocialMediaIcon'>
-        <a href="https://www.linkedin.com/in/kartika-bhatnagar/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/vanshika-jain-55b273254/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} size="xs" style={{color:'white'}}/>
         </a>
         
-        <a href="https://github.com/Kartik989-max" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/kavya-sys" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="1x" style={{color:'white'}} />
         </a>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCDktTqKJpwCffZPKMCZZzLVGjvhNTbHZzBPJbhFXFkmfFkLDwLLwNlpFpMrkHflRQdmQV" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faEnvelope} size="1x" style={{color:'white'}} />
         </a>
-        <a href="https://x.com/KartikB74080" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faXTwitter} size="1x" style={{color:'white'}} />
         </a>
-        <a href="https://discordapp.com/users/838825569017528350" target="_blank" rel="noopener noreferrer">
+        <a href="https://discordapp.com/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faDiscord} size="1x" style={{color:'white'}} />
         </a>
-        <a href='https://codepen.io/kartik989' target="_blank" rel="noopener noreferrer">
+        <a href='https://codepen.io/' target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faCodepen} size="1x" style={{color:'white'}} />
         </a>
         </div>

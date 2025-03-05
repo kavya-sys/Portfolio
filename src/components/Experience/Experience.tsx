@@ -12,9 +12,9 @@ const Exprerience: React.FC = () => {
         <div className="Experience_Content justify-content-center d-flex">
           <div className="card">
             <div className="card_txt">
-              <h1>CodSoft</h1>
+              <h1>Oasis</h1>
             </div>
-            <img src="./codsoft.png" className="card-img-top" alt="..." />
+            <img src="./oasis.png" className="card-img-top" alt="..." />
             <div className="card-body">
               <h2 className="card-title">Web Developer</h2>
               <h6 className="card-text">Sep 23 - Aug 23</h6>

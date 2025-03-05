@@ -15,18 +15,18 @@ const Projects:React.FC=()=>{
             <p>Checkmate.io is a real-time chess game built with <br /> Express, Node.js, Socket.io, and Chess.js.</p>
             <div className="card_txt_project_btn">
             <a href="https://chess-com-vhzl.onrender.com/">Live Demo</a>
-            <a href="https://github.com/Kartik989-max/ChessMate.io">Github</a>
+            <a href="https://github.com/kavya-sys/ChessMate.io">Github</a>
             </div>
           </div>
         </div>
         <div className="card_project">
-          <img src="./interiordecorz.png" alt="" />
+          <img src="./newsly.png" alt="" />
           <div className="card_txt_project">
-            <h1>Decorz</h1>
-            <p>Decorz is an interior design site built with Express, Node.js, <br /> EJS, and MongoDB, storing blog content with ease</p>
+            <h1>Newsly</h1>
+            <p>Newsly is news aggregator built with Express, Node.js, <br /> Reactjs, uses different news api.</p>
             <div className="card_txt_project_btn">
-            <a href="https://interior2.onrender.com/">Live Demo</a>
-            <a href="https://github.com/Kartik989-max/InteriorDecorz">Github</a>
+            <a href="https://newsly-delta.vercel.app/">Live Demo</a>
+            <a href="https://github.com/kavya-sys/Newsly">Github</a>
             </div>
           </div>
         </div>
